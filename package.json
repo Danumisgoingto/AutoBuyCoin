@@ -1,0 +1,31 @@
+{
+  "name": "autobuycoin",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "chcp 65001&DebugLaunch.bat",
+    "sellAll": "node app/SellAll.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jup-ag/core": "^4.0.0-beta.21",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "bn.js": "^5.2.1",
+    "bs58": "^6.0.0",
+    "crypto": "^1.0.1",
+    "https-proxy-agent": "^7.0.6",
+    "jsbi": "^4.3.2",
+    "nodemailer": "^7.0.3",
+    "rpc-websockets": "^7.11.0",
+    "socks-proxy-agent": "^8.0.5",
+    "terminal-kit": "^3.1.2",
+    "ws": "^8.18.1"
+  }
+}
